@@ -1,0 +1,27 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="index.css" />
+	</head>
+	<body>
+		<div class="container">
+			<div class="centered">
+				<h3>US (HOME)</h3>
+				<p id="score-home">0</p>
+				<button onclick="homePlusOne()">+ 1</button>
+				<button onclick="homePlusTwo()">+ 2</button>
+				<button onclick="homePlusThree()">+ 3</button>
+			</div>
+			<div class="centered">
+				<h3>THEM (AWAY)</h3>
+				<p id="score-guest">0</p>
+				<button onclick="guestPlusOne()">+ 1</button>
+				<button onclick="guestPlusTwo()">+ 2</button>
+				<button onclick="guestPlusThree()">+ 3</button>
+			</div>
+		</div>
+		<div>
+			<button class="reset" onclick="resetScore()">RESET SCORE</button>
+		</div>
+		<script src="index.js"></script>
+	</body>
+</html>
